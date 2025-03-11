@@ -1,2 +1,0 @@
-# GeoArVrProject3_GNU
- 
