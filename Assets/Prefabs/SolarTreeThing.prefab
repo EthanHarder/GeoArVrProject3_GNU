@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6344331588746712702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 77.11628
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.85
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -53.49
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6546019192940753311, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 3969555036909241921, guid: ab68eb252e8266e4580c09e33e54e641, type: 3}
+    - target: {fileID: -1765588989511918725, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5597563654966932405, guid: ab68eb252e8266e4580c09e33e54e641, type: 3}
+    - target: {fileID: 889991177683913489, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 6303626149589354902, guid: ab68eb252e8266e4580c09e33e54e641, type: 3}
+    - target: {fileID: 919132149155446097, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_Name
+      value: SolarTreeThing
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044963112199319772, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5597563654966932405, guid: ab68eb252e8266e4580c09e33e54e641, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3269308528414134675}
+  m_SourcePrefab: {fileID: 100100000, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+--- !u!1 &6109975286739413807 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2beb33a3416c2da42bf7c39e97544dac, type: 3}
+  m_PrefabInstance: {fileID: 6344331588746712702}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3269308528414134675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6109975286739413807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dd381507407e114d8420e9e478daf67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: TestName
+  height: 0m
+  occupation: 
+  other: 
+  active: 0
+  meshRenderer: {fileID: 0}
+  materials: []
+  panel: {fileID: 0}
